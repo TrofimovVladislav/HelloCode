@@ -42,10 +42,10 @@ int IndexOf(int[] collection, int find) // Метод поиска индекс�
 int[] array = new int[10];
 
 FillArray(array);
-array[6] = 9;
-array[7] = 9;
+// array[6] = 9;
+// array[7] = 9;
 PrintArray(array);
 Console.WriteLine();
 
-int pos = IndexOf(array, 444);
+int pos = IndexOf(array, 9);
 Console.WriteLine(pos);
