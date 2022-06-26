@@ -1,5 +1,5 @@
 ﻿Console.Write("Введите имя пользователя: ");
-string username = Console.ReadLine();
+string username = Console.ReadLine(); // string - это обозначение типа данных, username - заданнон нами имя переменной
 
 if(username == "Маша")
 {
